@@ -17,7 +17,7 @@ namespace APICatalogo.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("{valor:alpha:length(5)}")]
         public ActionResult<IEnumerable<Produto>> Get()
         {
             var produtos = _context.Produtos.ToList();
@@ -30,7 +30,7 @@ namespace APICatalogo.Controllers
             return produtos;
         }
 
-        [HttpGet("{id:int}", Name="ObterProduto")]
+        [HttpGet("{id:int:min(1)}", Name="ObterProduto")]
         public ActionResult<Produto> Get(int id)
         {
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
