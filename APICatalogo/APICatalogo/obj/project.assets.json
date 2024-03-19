@@ -6795,24 +6795,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAXUELJUNIOR\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\maxue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXUELJUNIOR\\Videos\\Docs\\api-dotnet\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "projectUniqueName": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
       "projectName": "APICatalogo",
-      "projectPath": "C:\\Users\\MAXUELJUNIOR\\Videos\\Docs\\api-dotnet\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-      "packagesPath": "C:\\Users\\MAXUELJUNIOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXUELJUNIOR\\Videos\\Docs\\api-dotnet\\APICatalogo\\APICatalogo\\obj\\",
+      "projectPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "packagesPath": "C:\\Users\\maxue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MAXUELJUNIOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\maxue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6832,6 +6827,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6882,7 +6882,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
