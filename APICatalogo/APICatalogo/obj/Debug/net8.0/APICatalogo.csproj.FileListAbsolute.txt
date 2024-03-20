@@ -462,3 +462,7 @@ C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\n
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
