@@ -466,3 +466,5 @@ C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\n
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\X.PagedList.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
