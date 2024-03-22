@@ -30,7 +30,7 @@ public class CustomLogger : ILogger
         EscreverTextoNoArquivo(mensagem);
     }
 
-    private void EscreverTextoNoArquivo(string mensagem)
+    private async Task EscreverTextoNoArquivo(string mensagem)
     {
         string caminhoArquivoLog = @"C:\temp\maxuel_Log.txt";
 

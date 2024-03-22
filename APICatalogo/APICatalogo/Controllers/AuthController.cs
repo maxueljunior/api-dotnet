@@ -31,7 +31,7 @@ public class AuthController : ControllerBase
     [Route("login")]
     public async Task<IActionResult> Login([FromBody] LoginModel model)
     {
-        var user = await _userManager.FindByNameAsync(model.UserName!);
+        var user = await _userManager.FindByNameAsync(model.Username!);
 
         if(user is not null && await _userManager.CheckPasswordAsync(user, model.Password!))
         {
@@ -74,7 +74,7 @@ public class AuthController : ControllerBase
     [Route("register")]
     public async Task<IActionResult> Register([FromBody] RegisterModel model)
     {
-        var userExists = await _userManager.FindByNameAsync(model.UserName!);
+        var userExists = await _userManager.FindByNameAsync(model.Username!);
         
         if(userExists != null)
         {
@@ -89,7 +89,7 @@ public class AuthController : ControllerBase
         {
             Email = model.Email,
             SecurityStamp = Guid.NewGuid().ToString(),
-            UserName = model.UserName
+            UserName = model.Username
         };
 
         var result = await _userManager.CreateAsync(user, model.Password!);
@@ -150,7 +150,7 @@ public class AuthController : ControllerBase
 
     [Authorize]
     [HttpPost]
-    [Route("revoke/{username:string}")]
+    [Route("revoke/{username}")]
     public async Task<IActionResult> Revoke(string username)
     {
         var user = await _userManager.FindByNameAsync(username);
