@@ -30,6 +30,16 @@ builder.Services.AddControllers(options =>
 })
 .AddNewtonsoftJson();
 
+var OrigensComAcessoPermitido = "_origensComAcessoPermitido";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: OrigensComAcessoPermitido, policy =>
+    {
+        policy.WithOrigins("http://www.apirequest.io");
+    });
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
@@ -65,8 +75,6 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                         .AddEntityFrameworkStores<AppDbContext>()
                         .AddDefaultTokenProviders();
 
-builder.Services.AddAuthorization();
-
 var secretKey = builder.Configuration["JWT:SecretKey"] ?? throw new ArgumentException("SecretKey invalida!");
 
 builder.Services.AddAuthentication(options =>
@@ -89,6 +97,22 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
     };
 });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+
+    options.AddPolicy("SuperAdmin", policy => policy.RequireRole("Admin")
+                                                    .RequireClaim("id", "maxueljunior"));
+
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+    options.AddPolicy("ExclusivePolicyOnly", policy =>
+    {
+        policy.RequireAssertion(context => context.User.HasClaim(claim =>
+                                        claim.Type == "id" &&
+                                        claim.Value == "maxueljunior") ||
+                                        context.User.IsInRole("SuperAdmin"));
+    });
+});
 
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -101,7 +125,6 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.DisableImplicitFromServicesParameters = true;
 });
-builder.Services.AddScoped<ApiLoggingFilter>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -125,6 +148,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.UseCors(OrigensComAcessoPermitido);
+
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

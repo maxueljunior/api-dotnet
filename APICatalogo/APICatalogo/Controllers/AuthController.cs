@@ -18,13 +18,15 @@ public class AuthController : ControllerBase
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly IConfiguration _configuration;
+    private readonly ILogger<AuthController> _logger;
 
-    public AuthController(ITokenService tokenService, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+    public AuthController(ITokenService tokenService, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, ILogger<AuthController> logger)
     {
         _tokenService = tokenService;
         _userManager = userManager;
         _roleManager = roleManager;
         _configuration = configuration;
+        _logger = logger;
     }
 
     [HttpPost]
@@ -41,6 +43,7 @@ public class AuthController : ControllerBase
             {
                 new Claim(ClaimTypes.Name, user.UserName!),
                 new Claim(ClaimTypes.Email, user.Email!),
+                new Claim("id", user.UserName!),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
@@ -148,7 +151,7 @@ public class AuthController : ControllerBase
         });
     }
 
-    [Authorize]
+    [Authorize(Policy = "ExclusiveOnly")]
     [HttpPost]
     [Route("revoke/{username}")]
     public async Task<IActionResult> Revoke(string username)
@@ -163,5 +166,80 @@ public class AuthController : ControllerBase
         user.RefreshToken = null;
         await _userManager.UpdateAsync(user);
         return NoContent();
+    }
+
+    [HttpPost]
+    [Authorize(Policy = "SuperAdminOnly")]
+    [Route("CreateRole")]
+    public async Task<IActionResult> CreateRole(string rolename)
+    {
+        var roleExist = await _roleManager.RoleExistsAsync(rolename);
+
+        if (!roleExist)
+        {
+            var roleResult = await _roleManager.CreateAsync(new IdentityRole(rolename));
+
+            if(roleResult.Succeeded)
+            {
+                _logger.LogInformation(1, "Roles Added");
+                return StatusCode(StatusCodes.Status200OK, new Response
+                {
+                    Status = "Success",
+                    Message = $"Role {rolename} added successfully"
+                });
+            }
+            else
+            {
+                _logger.LogInformation(2, "Error");
+                return StatusCode(StatusCodes.Status400BadRequest, new Response
+                {
+                    Status = "Error",
+                    Message = $"Issue adding the new {rolename} role"
+                });
+            }
+        }
+
+        return StatusCode(StatusCodes.Status400BadRequest, new Response
+        {
+            Status = "Error",
+            Message = $"Role already exist."
+        });
+    }
+
+    [HttpPost]
+    [Authorize(Policy = "SuperAdminOnly")]
+    [Route("AddUserToRole")]
+    public async Task<IActionResult> AddUserToRole(string email, string rolename)
+    {
+        var user = await _userManager.FindByEmailAsync(email);
+
+        if(user != null)
+        {
+            var result = await _userManager.AddToRoleAsync(user, rolename);
+            if (result.Succeeded)
+            {
+                _logger.LogInformation(1, $"User {user.Email} added to the {rolename} role");
+                return StatusCode(StatusCodes.Status200OK, new Response
+                {
+                    Status = "Success",
+                    Message = $"User {user.Email} added to the {rolename} role"
+                });
+            }
+            else
+            {
+                _logger.LogInformation(1, $"Error: Unable to add user {user.Email} to the {rolename} role");
+                return StatusCode(StatusCodes.Status400BadRequest, new Response
+                {
+                    Status = "Error",
+                    Message = $"Error: Unable to add user {user.Email} to the {rolename} role"
+                });
+            }
+        }
+
+        return StatusCode(StatusCodes.Status400BadRequest, new Response
+        {
+            Status = "Error",
+            Message = "Unable to find user"
+        });
     }
 }

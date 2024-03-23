@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogo\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "APICatalogo\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBMAAABSAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeToolTip": "APICatalogo\\Program.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:36:26.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T23:34:20.635Z",
+              "WhenOpened": "2024-03-23T14:57:12.429Z",
               "EditorCaption": ""
             }
           ]
