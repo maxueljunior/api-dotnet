@@ -502,3 +502,7 @@ C:\Users\maxue\Desktop\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Newto
 C:\Users\maxue\Desktop\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\maxue\Desktop\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\maxue\Desktop\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
