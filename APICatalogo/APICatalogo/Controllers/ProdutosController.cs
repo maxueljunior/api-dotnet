@@ -75,6 +75,10 @@ public class ProdutosController : ControllerBase
         return Ok(produtosDto);
     }
 
+    /// <summary>
+    /// Exibe uma relação dos produtos
+    /// </summary>
+    /// <returns>Retorna uma lista de objetos Produto</returns>
     [HttpGet]
     [Authorize(Policy = "UserOnly")]
     public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
@@ -91,6 +95,11 @@ public class ProdutosController : ControllerBase
         return Ok(produtosDto);
     }
 
+    /// <summary>
+    /// Obtem o produto pelo seu indetificador produtoId
+    /// </summary>
+    /// <param name="id">Código do produto</param>
+    /// <returns>Um objeto Produto</returns>
     [HttpGet("{id}", Name = "ObterProduto")]
     public async Task<ActionResult<ProdutoDTO>> Get(int id)
     {

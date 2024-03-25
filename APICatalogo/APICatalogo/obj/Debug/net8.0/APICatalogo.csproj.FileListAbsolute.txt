@@ -506,3 +506,5 @@ C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\n
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Http.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.xml
+C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.xml

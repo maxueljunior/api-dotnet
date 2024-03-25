@@ -16,6 +16,7 @@ namespace APICatalogo.Controllers;
 
 [Route("[controller]")]
 [ApiController]
+[Produces("application/json")]
 //[EnableRateLimiting("fixedwindow")]
 public class CategoriasController : ControllerBase
 {
@@ -28,6 +29,10 @@ public class CategoriasController : ControllerBase
         _uof = uof;
     }
 
+    /// <summary>
+    /// Obtem uma lista de objetos Categoria
+    /// </summary>
+    /// <returns>Uma lista de objetos Categoria</returns>
     [HttpGet]
     //[Authorize]
     //[DisableRateLimiting]
@@ -72,7 +77,14 @@ public class CategoriasController : ControllerBase
         return Ok(categoriasDto);
     }
 
+    /// <summary>
+    /// Obtem uma Categoria pelo seu Id
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>Objetos Categoria</returns>
     [HttpGet("{id:int}", Name = "ObterCategoria")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<CategoriaDTO>> Get(int id)
     {
         var categoria = await _uof.CategoriaRepository.GetAsync(c => c.CategoriaId == id);
@@ -88,7 +100,25 @@ public class CategoriasController : ControllerBase
         return Ok(categoriaDto);
     }
 
+    /// <summary>
+    /// Inclui uma nova categoria
+    /// </summary>
+    /// <remarks>
+    /// Exemplo de request:
+    /// 
+    ///     POST api/categorias
+    ///     {
+    ///         "categoriaId": 1,
+    ///         "nome": "categoria1",
+    ///         "imagemUrl": "http://teste.net/1.jpg"
+    ///     }
+    /// </remarks>
+    /// <param name="categoriaDto">objeto Categoria</param>
+    /// <returns>O objeto Categoria incluida</returns>
+    /// <remarks>Retorna um Objeto Categoria incluido</remarks>
     [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<CategoriaDTO>> Post(CategoriaDTO categoriaDto)
     {
         if (categoriaDto is null)
