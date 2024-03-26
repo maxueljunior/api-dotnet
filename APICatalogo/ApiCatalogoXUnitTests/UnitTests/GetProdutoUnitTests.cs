@@ -24,7 +24,7 @@ public class GetProdutoUnitTests : IClassFixture<ProdutosUnitTestsController>
     public async Task GetProdutoById_OKResult()
     {
         //Arrange
-        var prodId = 2;
+        var prodId = 1;
 
         //Act
         var data = await _controller.Get(prodId);
