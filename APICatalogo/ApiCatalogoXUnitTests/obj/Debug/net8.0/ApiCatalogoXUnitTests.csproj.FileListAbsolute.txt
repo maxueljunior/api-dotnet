@@ -666,3 +666,4 @@ C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\ApiCatalogoXUnitTests\o
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\ApiCatalogoXUnitTests\obj\Debug\net8.0\ApiCatalogoXUnitTests.pdb
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\ApiCatalogoXUnitTests\obj\Debug\net8.0\ApiCatalogoXUnitTests.genruntimeconfig.cache
 C:\Users\MAXUELJUNIOR\Videos\Docs\api-dotnet\APICatalogo\ApiCatalogoXUnitTests\obj\Debug\net8.0\ref\ApiCatalogoXUnitTests.dll
+C:\Users\maxue\Desktop\api-dotnet\APICatalogo\ApiCatalogoXUnitTests\bin\Debug\net8.0\web.config

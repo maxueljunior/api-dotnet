@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60735002-ADEA-4270-931F-030A03C515BD}|ApiCatalogoXUnitTests\\ApiCatalogoXUnitTests.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogoxunittests\\unittests\\postprodutounittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60735002-ADEA-4270-931F-030A03C515BD}|ApiCatalogoXUnitTests\\ApiCatalogoXUnitTests.csproj|solutionrelative:apicatalogoxunittests\\unittests\\postprodutounittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60735002-ADEA-4270-931F-030A03C515BD}|ApiCatalogoXUnitTests\\ApiCatalogoXUnitTests.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogoxunittests\\unittests\\getprodutounittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60735002-ADEA-4270-931F-030A03C515BD}|ApiCatalogoXUnitTests\\ApiCatalogoXUnitTests.csproj|solutionrelative:apicatalogoxunittests\\unittests\\getprodutounittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B61923-9480-4773-9010-AC4DB55A4EAB}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetProdutoUnitTests.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\ApiCatalogoXUnitTests\\UnitTests\\GetProdutoUnitTests.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoXUnitTests\\UnitTests\\GetProdutoUnitTests.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\ApiCatalogoXUnitTests\\UnitTests\\GetProdutoUnitTests.cs",
-              "RelativeToolTip": "ApiCatalogoXUnitTests\\UnitTests\\GetProdutoUnitTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeToolTip": "APICatalogo\\Program.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAM8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:53:15.819Z",
+              "WhenOpened": "2024-03-26T22:58:20.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostProdutoUnitTests.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\ApiCatalogoXUnitTests\\UnitTests\\PostProdutoUnitTests.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoXUnitTests\\UnitTests\\PostProdutoUnitTests.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\ApiCatalogoXUnitTests\\UnitTests\\PostProdutoUnitTests.cs",
-              "RelativeToolTip": "ApiCatalogoXUnitTests\\UnitTests\\PostProdutoUnitTests.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:53:06.922Z",
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\web.config",
+              "RelativeDocumentMoniker": "APICatalogo\\web.config",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\APICatalogo\\APICatalogo\\web.config",
+              "RelativeToolTip": "APICatalogo\\web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-26T22:50:33.584Z",
               "EditorCaption": ""
             }
           ]
