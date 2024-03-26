@@ -10,11 +10,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using X.PagedList;
+using Microsoft.AspNetCore.Http;
 
 namespace APICatalogo.Controllers;
 
 [Route("[controller]")]
 [ApiController]
+[ApiConventionType(typeof(DefaultApiConventions))]
 public class ProdutosController : ControllerBase
 {
     private readonly IUnitOfWork _uof;
@@ -81,18 +83,29 @@ public class ProdutosController : ControllerBase
     /// <returns>Retorna uma lista de objetos Produto</returns>
     [HttpGet]
     [Authorize(Policy = "UserOnly")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesDefaultResponseType]
     public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
     {
-        var produtos = await _uof.ProdutoRepository.GetAllAsync();
-
-        if (produtos is null)
+        try
         {
-            return NotFound();
+            var produtos = await _uof.ProdutoRepository.GetAllAsync();
+            
+            if (produtos is null)
+            {
+                return NotFound();
+            }
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+
+            return Ok(produtosDto);
+        }catch(Exception)
+        {
+            return BadRequest();
         }
 
-        var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
-
-        return Ok(produtosDto);
     }
 
     /// <summary>
@@ -103,7 +116,14 @@ public class ProdutosController : ControllerBase
     [HttpGet("{id}", Name = "ObterProduto")]
     public async Task<ActionResult<ProdutoDTO>> Get(int id)
     {
+
+        if(id == null || id <= 0)
+        {
+            return BadRequest("ID de produto invalido!");
+        }
+
         var produto = await _uof.ProdutoRepository.GetAsync(p => p.ProdutoId == id);
+
 
         if (produto is null)
         {
