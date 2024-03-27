@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCatalogoXUnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adc464bfeaed21bd656818b4bca7c0caa95b4050")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2abc56a9d7fb29ef85a513ed5d12cebf79711ddb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCatalogoXUnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCatalogoXUnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
