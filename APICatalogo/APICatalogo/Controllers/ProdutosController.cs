@@ -17,6 +17,7 @@ namespace APICatalogo.Controllers;
 [Route("[controller]")]
 [ApiController]
 [ApiConventionType(typeof(DefaultApiConventions))]
+[Authorize]
 public class ProdutosController : ControllerBase
 {
     private readonly IUnitOfWork _uof;
@@ -82,7 +83,7 @@ public class ProdutosController : ControllerBase
     /// </summary>
     /// <returns>Retorna uma lista de objetos Produto</returns>
     [HttpGet]
-    [Authorize(Policy = "UserOnly")]
+    //[Authorize(Policy = "UserOnly")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]

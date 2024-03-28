@@ -1,0 +1,41 @@
+﻿@model CategoriasMvc.Models.UsuarioViewModel
+
+<h2>Login</h2>
+
+<div class="row">
+    <div class="cold-md-10">
+
+        <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal">
+
+            <div asp-validation-summary="All" class="text-danger">
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Username" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10" style="padding-top: 10px">
+                    <button type="submit" class="btn btn-outline-dark">LOGIN</button>
+                </div>
+            </div>
+
+            <p>
+                <a asp-action="Register">Registrar novo Usuário?</a>
+            </p>
+        </form>
+
+    </div>
+</div>
