@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\views\\produtos\\deletarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\views\\produtos\\deletarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\views\\produtos\\atualizarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\views\\produtos\\atualizarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\services\\autenticacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\services\\autenticacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\categoriasmvc\\categoriasmvc\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D97A48-6E96-44BD-941E-CDFDB83B63C8}|CategoriasMvc\\CategoriasMvc.csproj|solutionrelative:categoriasmvc\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "CategoriasMvc\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CategoriasMvc\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:34:19.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Autenticacao.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Services\\Autenticacao.cs",
-              "RelativeDocumentMoniker": "CategoriasMvc\\Services\\Autenticacao.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Services\\Autenticacao.cs",
-              "RelativeToolTip": "CategoriasMvc\\Services\\Autenticacao.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAjwA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:33:25.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\Index.cshtml",
-              "RelativeDocumentMoniker": "CategoriasMvc\\Views\\Produtos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\Index.cshtml",
-              "RelativeToolTip": "CategoriasMvc\\Views\\Produtos\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAA9AAAA",
+              "Title": "AtualizarProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\AtualizarProduto.cshtml",
+              "RelativeDocumentMoniker": "CategoriasMvc\\Views\\Produtos\\AtualizarProduto.cshtml",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\AtualizarProduto.cshtml",
+              "RelativeToolTip": "CategoriasMvc\\Views\\Produtos\\AtualizarProduto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T15:26:57.573Z",
+              "WhenOpened": "2024-03-29T14:46:09.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeletarProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\DeletarProduto.cshtml",
+              "RelativeDocumentMoniker": "CategoriasMvc\\Views\\Produtos\\DeletarProduto.cshtml",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Views\\Produtos\\DeletarProduto.cshtml",
+              "RelativeToolTip": "CategoriasMvc\\Views\\Produtos\\DeletarProduto.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T14:45:53.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "CategoriasMvc\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "CategoriasMvc\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAD4v10AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T14:41:16.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "CategoriasMvc\\Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\CategoriasMvc\\CategoriasMvc\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "CategoriasMvc\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBgAAAAJAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAYwF8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T15:18:55.097Z",
               "EditorCaption": ""

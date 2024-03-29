@@ -95,7 +95,7 @@ public class ProdutoService : IProdutoService
         var client = _clientFactory.CreateClient("ProdutosApi");
         PutTokenInHeaderAuthorization(token, client);
 
-        using (var response = await client.PostAsJsonAsync(apiEndpoint + $"/{id}", produtoVM))
+        using (var response = await client.PutAsJsonAsync(apiEndpoint + $"/{id}", produtoVM))
         {
             if (response.IsSuccessStatusCode)
             {
