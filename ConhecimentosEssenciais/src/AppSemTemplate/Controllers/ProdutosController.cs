@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AppSemTemplate.Data;
 using AppSemTemplate.Models;
+using Microsoft.AspNetCore.Authorization;
+using AppSemTemplate.Extensions;
 
 namespace AppSemTemplate.Controllers;
 
+[Authorize]
 [Route("meus-produtos")]
 public class ProdutosController : Controller
 {
@@ -21,6 +24,7 @@ public class ProdutosController : Controller
     }
 
     // GET: Produtos
+    [AllowAnonymous]
     public async Task<IActionResult> Index()
     {
         return View(await _context.Produtos.ToListAsync());
@@ -45,12 +49,14 @@ public class ProdutosController : Controller
         return View(produto);
     }
 
+    //[ClaimsAuthorize("Produtos", "AD")]
     [Route("criar-novo")]
     public IActionResult Create()
     {
         return View();
     }
 
+    //[ClaimsAuthorize("Produtos", "AD")]
     [HttpPost("criar-novo")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("Id,Nome,Imagem,Valor")] Produto produto)

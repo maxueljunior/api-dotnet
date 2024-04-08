@@ -50,19 +50,19 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            <p>Seu site ASP.NET feito do jeito certo!!</p>
+            <partial name="_SelectLanguagePartial" />
         </div>
     </footer>
 
     <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery/jquery.js"></script>
         <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
         <script src="~/js/site.js"></script>
         <script src="~/js/cep.js"></script>
     </environment>
 
     <environment exclude="Development">
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery/jquery.min.js"></script>
         <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.min.js"></script>
     </environment>
