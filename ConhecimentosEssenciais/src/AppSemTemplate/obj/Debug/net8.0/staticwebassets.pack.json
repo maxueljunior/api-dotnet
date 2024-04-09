@@ -9,6 +9,22 @@
       "PackagePath": "staticwebassets\\css\\site.min.css"
     },
     {
+      "Id": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\af8f9c20-22e3-4948-bb97-0105d9d02fbb_eu.jpg",
+      "PackagePath": "staticwebassets\\images\\af8f9c20-22e3-4948-bb97-0105d9d02fbb_eu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\cd1eaa35-9549-4737-a9ce-0f24341081d0_eu.jpg",
+      "PackagePath": "staticwebassets\\images\\cd1eaa35-9549-4737-a9ce-0f24341081d0_eu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\logo_watermark.png",
+      "PackagePath": "staticwebassets\\images\\logo_watermark.png"
+    },
+    {
+      "Id": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\images\\prod_af8f9c20-22e3-4948-bb97-0105d9d02fbb_eu.jpg",
+      "PackagePath": "staticwebassets\\images\\prod_af8f9c20-22e3-4948-bb97-0105d9d02fbb_eu.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\wwwroot\\js\\cep.js",
       "PackagePath": "staticwebassets\\js\\cep.js"
     },

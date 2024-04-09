@@ -15,10 +15,32 @@ public class HomeController : Controller
         _localizer = localizer;
     }
 
+    //[ResponseCache(Duration = 300, Location = ResponseCacheLocation.Any, NoStore = false)]
     public IActionResult Index()
     {
         ViewData["Message"] = _localizer["Seja bem vindo!"];
+
+        ViewData["Horario"] = DateTime.Now;
+
+        if(Request.Cookies.TryGetValue("MeuCookie", out string? cookieValue))
+        {
+            ViewData["MeuCookie"] = cookieValue;
+        }
+
         return View();
+    }
+
+    [Route("cookies")]
+    public IActionResult Cookie()
+    {
+        var cookieOptions = new CookieOptions
+        {
+            Expires = DateTime.Now.AddHours(1),
+        };
+
+        Response.Cookies.Append("MeuCookie", "Dados do Cookie", cookieOptions);
+
+        return View("Index");
     }
 
     [HttpPost]

@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>03b54d2a-39c2-424b-a568-597a94344285</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +19,6 @@
     <Folder Include="Areas\Produtos\Models\" />
     <Folder Include="Areas\Vendas\Data\" />
     <Folder Include="Areas\Vendas\Models\" />
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
@@ -31,6 +32,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
   </ItemGroup>
 

@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\extensions\\moedaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\extensions\\moedaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\resources\\configuration.moedaattribute.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\resources\\configuration.moedaattribute.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\resources\\models\\produto.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\resources\\models\\produto.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\resources\\views\\shared._selectlanguagepartial.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\resources\\views\\shared._selectlanguagepartial.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\configuration\\globalizationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\configuration\\globalizationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\conhecimentosessenciais\\src\\appsemtemplate\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{65360EF9-8EB0-4352-8EB1-9D983613B1CD}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.es.resx",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Models\\Produto.es.resx",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Resources\\Models\\Produto.es.resx",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Models\\Produto.es.resx",
-              "RelativeToolTip": "src\\AppSemTemplate\\Resources\\Models\\Produto.es.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-08T23:24:35.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shared._SelectLanguagePartial.es.resx",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Views\\Shared._SelectLanguagePartial.es.resx",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Resources\\Views\\Shared._SelectLanguagePartial.es.resx",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Views\\Shared._SelectLanguagePartial.es.resx",
-              "RelativeToolTip": "src\\AppSemTemplate\\Resources\\Views\\Shared._SelectLanguagePartial.es.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-08T23:24:32.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.MoedaAttribute.es.resx",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Configuration.MoedaAttribute.es.resx",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Resources\\Configuration.MoedaAttribute.es.resx",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Resources\\Configuration.MoedaAttribute.es.resx",
-              "RelativeToolTip": "src\\AppSemTemplate\\Resources\\Configuration.MoedaAttribute.es.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-08T23:24:23.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MoedaAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\MoedaAttribute.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Extensions\\MoedaAttribute.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\MoedaAttribute.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Extensions\\MoedaAttribute.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T23:23:34.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalizationConfig.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Configuration\\GlobalizationConfig.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Configuration\\GlobalizationConfig.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Configuration\\GlobalizationConfig.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Configuration\\GlobalizationConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T23:10:47.659Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Dockerfile",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Dockerfile",
+              "RelativeToolTip": "src\\AppSemTemplate\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-09T23:02:42.628Z",
               "EditorCaption": ""
             }
           ]

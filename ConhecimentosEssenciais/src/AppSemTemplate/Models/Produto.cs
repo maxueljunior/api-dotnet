@@ -1,5 +1,7 @@
 ﻿using AppSemTemplate.Extensions;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppSemTemplate.Models;
 
@@ -12,11 +14,15 @@ public class Produto
     [Required(ErrorMessage = "O campo {0} é obrigatorio")]
     public string? Nome { get; set; }
 
+    [NotMapped]
+    [DisplayName("Imagem do Produto")]
+    public IFormFile? ImagemUpload { get; set; }
 
-    [Required(ErrorMessage = "O campo {0} é obrigatorio")]
     public string? Imagem { get; set; }
 
     [Moeda]
     [Required(ErrorMessage = "O campo {0} é obrigatorio")]
     public decimal Valor {  get; set; }
+
+    public bool Processado { get; set; }
 }

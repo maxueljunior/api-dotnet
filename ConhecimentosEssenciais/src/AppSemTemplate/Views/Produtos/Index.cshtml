@@ -37,17 +37,114 @@
                 @Html.DisplayFor(modelItem => item.Valor)
             </td>
             <td>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#detalhesModal" data-imagem="@item.Imagem" data-id="@item.Id" data-nome="@item.Nome" data-valor="@item.Valor"><span class="fa fa-search"></span></button>
                 <a tipo-botao="Editar" route-id="@item.Id"></a>
                 <a tipo-botao="Detalhes" route-id="@item.Id"></a>
-                <a tipo-botao="Excluir" route-id="@item.Id"></a>
+                <a disable-by-claim-name="Produtos" disable-by-claim-value="EX" tipo-botao="Excluir" route-id="@item.Id"></a>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#excluirModal" data-id="@item.Id"><span class="fa fa-trash"></span></button>
+
 
 @*                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a>
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
             </td>
         </tr>
-}
+}   
+    <form id="antiForgeryForm" method="post">
+        @Html.AntiForgeryToken()
+    </form>
     </tbody>
 </table>
 
 <vc:counter model-counter="@Model.Count()"></vc:counter>
+
+<!-- Modal -->
+<div class="modal fade" id="detalhesModal" tabindex="-1" aria-labelledby="detalhesModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="detalhesModalLabel">Detalhes do Produto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="produtoImagem" style="height: 100px; width: 61px">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>ID:</strong><span id="produtoId"></span></p>
+                        <p><strong>Nome:</strong><span id="produtoNome"></span></p>
+                        <p><strong>Valor:</strong><span id="produtoValor"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Exclusão -->
+<div class="modal fade" id="excluirModal" tabindex="-1" aria-labelledby="excluirModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="excluirModalLabel">Exclusão do Produto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                Tem certeza de que deseja excluir este produto?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" id="confirmarExclusao">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#detalhesModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var id = button.data('id');
+                var nome = button.data('nome');
+                var valor = button.data('valor');
+                var imagem = button.data('imagem');
+
+                $('#produtoId').text(id);
+                $('#produtoNome').text(nome);
+                $('#produtoValor').text(valor);
+                $('#produtoImagem').attr('src', "/images/" + imagem);
+            });
+        });
+
+        $(document).ready(function () {
+
+            var produtoIdParaExcluir;
+            var form = $('#antiForgeryForm');
+            var token = form[0][0].value;
+
+            $('#excluirModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                produtoIdParaExcluir = button.data('id');
+            });
+
+            $('#confirmarExclusao').click(function () {
+                $.ajax({
+                    url: '/meus-produtos/excluir/' + produtoIdParaExcluir,
+                    type: 'POST',
+                    headers: { 'RequestVerificationToken' : token},
+                    success: function () {
+                        location.reload();
+                    },
+                    error: function(){
+                        alert('Erro ao excluir produto!');
+                    }
+                })
+            });
+        });
+    </script>
+}

@@ -10,6 +10,8 @@ public static class DependecyInjectionConfig
     {
         builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         builder.Services.AddScoped<IOperacao, Operacao>();
+        builder.Services.AddScoped<IImageUploadService, ImageUploadService>();
+
         builder.Services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();
         return builder;
     }

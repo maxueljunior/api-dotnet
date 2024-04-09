@@ -9,6 +9,7 @@ using AppSemTemplate.Data;
 using AppSemTemplate.Models;
 using Microsoft.AspNetCore.Authorization;
 using AppSemTemplate.Extensions;
+using AppSemTemplate.Services;
 
 namespace AppSemTemplate.Controllers;
 
@@ -17,10 +18,12 @@ namespace AppSemTemplate.Controllers;
 public class ProdutosController : Controller
 {
     private readonly AppDbContext _context;
+    private readonly IImageUploadService _imageUploadService;
 
-    public ProdutosController(AppDbContext context)
+    public ProdutosController(AppDbContext context, IImageUploadService imageUploadService)
     {
         _context = context;
+        _imageUploadService = imageUploadService;
     }
 
     // GET: Produtos
@@ -58,11 +61,20 @@ public class ProdutosController : Controller
 
     //[ClaimsAuthorize("Produtos", "AD")]
     [HttpPost("criar-novo")]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("Id,Nome,Imagem,Valor")] Produto produto)
+    //[ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create([Bind("Id,Nome,ImagemUpload,Valor")] Produto produto)
     {
         if (ModelState.IsValid)
         {
+            var imgPrefixo = Guid.NewGuid() + "_";
+
+            if(!await _imageUploadService.UploadArquivo(ModelState, produto.ImagemUpload, imgPrefixo))
+            {
+                return View(produto);
+            }
+
+            produto.Imagem = imgPrefixo + produto.ImagemUpload.FileName;
+
             _context.Add(produto);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -87,18 +99,34 @@ public class ProdutosController : Controller
     }
 
     [HttpPost("editar-produto/{id}")]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Imagem,Valor")] Produto produto)
+    //[ValidateAntiForgeryToken]
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,ImagemUpload,Valor")] Produto produto)
     {
         if (id != produto.Id)
         {
             return NotFound();
         }
 
+        var produtosDb = await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+
         if (ModelState.IsValid)
         {
             try
             {
+                produto.Imagem = produtosDb.Imagem;
+
+                if(produto.ImagemUpload != null)
+                {
+                    var imgPrefixo = Guid.NewGuid() + "_";
+
+                    if (!await _imageUploadService.UploadArquivo(ModelState, produto.ImagemUpload, imgPrefixo))
+                    {
+                        return View(produto);
+                    }
+
+                    produto.Imagem = imgPrefixo + produto.ImagemUpload.FileName;
+                }
+
                 _context.Update(produto);
                 await _context.SaveChangesAsync();
             }
