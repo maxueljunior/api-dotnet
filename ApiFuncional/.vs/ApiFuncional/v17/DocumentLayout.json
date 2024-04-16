@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C1924D2-AA60-4CF5-93AC-5F27931BF571}|ApiFuncional.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apifuncional\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1924D2-AA60-4CF5-93AC-5F27931BF571}|ApiFuncional.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C1924D2-AA60-4CF5-93AC-5F27931BF571}|ApiFuncional.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\apifuncional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1924D2-AA60-4CF5-93AC-5F27931BF571}|ApiFuncional.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:13:09.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "Configuration\\ApiConfig.cs",
@@ -35,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\ApiFuncional\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T14:40:52.203Z",
               "EditorCaption": ""
