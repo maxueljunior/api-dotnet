@@ -29,3 +29,4 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.genruntimeconfig.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\ref\NSE.WebApp.MVC.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_LoginPartial.cshtml.rz.scp.css
