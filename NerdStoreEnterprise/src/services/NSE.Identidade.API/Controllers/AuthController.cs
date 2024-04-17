@@ -30,6 +30,7 @@ public class AuthController : MainController
     [HttpPost("nova-conta")]
     public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
     {
+        return new StatusCodeResult(403);
         if (!ModelState.IsValid) return CustomResponse(ModelState);
 
         var user = new IdentityUser
@@ -57,6 +58,7 @@ public class AuthController : MainController
     [HttpPost("autenticar")]
     public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
     {
+
         if (!ModelState.IsValid) return CustomResponse(ModelState);
 
         var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true);
