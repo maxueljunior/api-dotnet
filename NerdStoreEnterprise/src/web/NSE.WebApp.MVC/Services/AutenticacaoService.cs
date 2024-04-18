@@ -11,7 +11,7 @@ public class AutenticacaoService : Services, IAutenticacaoService
 
     public AutenticacaoService(HttpClient httpClient, IOptions<AppSettings> appSettings)
     {
-        httpClient.BaseAddress = new Uri(_appSettings!.AutenticacaoUrl!);
+        httpClient.BaseAddress = new Uri(appSettings.Value.AutenticacaoUrl);
         _httpClient = httpClient;
 
         _appSettings = appSettings.Value;

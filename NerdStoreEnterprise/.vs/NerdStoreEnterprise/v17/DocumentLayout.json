@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB8B01F-9967-4442-BD35-0DA313565A8E}|src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.cliente.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB8B01F-9967-4442-BD35-0DA313565A8E}|src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj|solutionrelative:src\\services\\nse.cliente.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
+              "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:10:28.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

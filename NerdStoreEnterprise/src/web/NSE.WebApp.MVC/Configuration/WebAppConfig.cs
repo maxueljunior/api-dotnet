@@ -1,4 +1,6 @@
-﻿using NSE.WebApp.MVC.Extensions;
+﻿using Microsoft.AspNetCore.Localization;
+using NSE.WebApp.MVC.Extensions;
+using System.Globalization;
 
 namespace NSE.WebApp.MVC.Configuration;
 
@@ -35,12 +37,21 @@ public static class WebAppConfig
 
         app.UseIdentityConfiguration();
 
+        var supportedCultures = new[] { new CultureInfo("pt-BR") };
+
+        app.UseRequestLocalization(new RequestLocalizationOptions
+        {
+            DefaultRequestCulture = new RequestCulture("pt-BR"),
+            SupportedCultures = supportedCultures,
+            SupportedUICultures = supportedCultures
+        });
+
         app.UseMiddleware<ExceptionMiddleware>();
 
         app.UseRouting();
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}");
+            pattern: "{controller=Catalogo}/{action=Index}/{id?}");
     }
 }

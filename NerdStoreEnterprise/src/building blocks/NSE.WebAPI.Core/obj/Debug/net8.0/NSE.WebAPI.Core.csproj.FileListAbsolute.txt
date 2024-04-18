@@ -1,0 +1,13 @@
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.deps.json
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.csproj.AssemblyReference.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.AssemblyInfoInputs.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.AssemblyInfo.cs
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.sourcelink.json
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\refint\NSE.WebAPI.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\ref\NSE.WebAPI.Core.dll
