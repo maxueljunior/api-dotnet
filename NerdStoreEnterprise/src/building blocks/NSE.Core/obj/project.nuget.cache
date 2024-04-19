@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ajZpNlkJhDcTyvqk27rXGf6JvE2tTfm5FcmgS968XZ2QG2jCZH9lJJNMwE4MxS8nRifU5YGM3Jx8LBvLwCrlCA==",
+  "dgSpecHash": "T7aKdcdSsZ1zo5SLWUP2mm9pvqKf7MWj1um8buC1LWzRJVt9BoUNIkZyJrv4DYhASviEy5oaMYe/FDWcd9bUTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maxue\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\maxue\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\maxue\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

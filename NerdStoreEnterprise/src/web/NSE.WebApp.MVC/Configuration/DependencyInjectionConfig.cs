@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Mvc.DataAnnotations;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using NSE.WebApp.MVC.Extensions;
 using NSE.WebApp.MVC.Services;
@@ -12,6 +13,7 @@ public static class DependencyInjectionConfig
 {
     public static WebApplicationBuilder AddDependencyInjectionConfig(this WebApplicationBuilder builder)
     {
+        builder.Services.AddSingleton<IValidationAttributeAdapterProvider, ValidationAttributeAdapterProvider>();
         builder.Services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
 
         builder.Services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();

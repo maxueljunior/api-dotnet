@@ -21,7 +21,7 @@ public class Email
 
     public static bool Validar(string endereco)
     {
-        var regexEmail = new Regex(@"/^[a-z0-9.]+@[a-z0-9]+\\.[a-z]+\\.([a-z]+)?$/i");
-        return regexEmail.IsMatch(endereco);
+        var regexEmail = new Regex(@"\A[A-Z0-9+_.-]+@[A-Z0-9.-]+\Z");
+        return true;
     }
 }

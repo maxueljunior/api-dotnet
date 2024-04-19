@@ -14,7 +14,7 @@ public class Endereco : Entity
     public Guid ClienteId { get; private set; }
 
     // EF Relation
-    public Cliente Cliente { get; private set; }
+    public Clientes Cliente { get; private set; }
 
     public Endereco(string logradouro, string numero, string complemento, string bairro, string cep, string cidade, string estado)
     {

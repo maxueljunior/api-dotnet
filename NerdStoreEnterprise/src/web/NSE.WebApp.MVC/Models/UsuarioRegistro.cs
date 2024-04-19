@@ -1,9 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using NSE.WebApp.MVC.Extensions;
+using System.ComponentModel.DataAnnotations;
 
 namespace NSE.WebApp.MVC.Models;
 
 public class UsuarioRegistro
 {
+    [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+    [Display(Name = "Nome Completo")]
+    public string Nome { get; set; }
+
+    [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
+    [Display(Name = "CPF")]
+    [Cpf]
+    public string Cpf { get; set; }
+
     [Required(ErrorMessage = "O campo {0} é obrigatorio!")]
     [EmailAddress(ErrorMessage = "O campo {0} está em formato invalido!")]
     public string Email { get; set; }

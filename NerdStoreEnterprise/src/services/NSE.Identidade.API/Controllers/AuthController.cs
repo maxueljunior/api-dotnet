@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using NSE.Core.Messages.Integration;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
+using NSE.WebAPI.Core.Controllers;
 using NSE.WebAPI.Core.Identidade;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -45,6 +47,8 @@ public class AuthController : MainController
 
         if(result.Succeeded)
         {
+            // realiza algo => integração
+
             return CustomResponse(await GerarJwt(user.Email));
         }
 
@@ -54,6 +58,11 @@ public class AuthController : MainController
         }
 
         return CustomResponse();
+    }
+
+    private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
+    {
+        return null;
     }
 
     [HttpPost("autenticar")]
