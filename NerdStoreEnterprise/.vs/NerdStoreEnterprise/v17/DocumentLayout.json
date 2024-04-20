@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A33B1D15-B1B5-4D68-A6B5-A7EAE7263A44}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A33B1D15-B1B5-4D68-A6B5-A7EAE7263A44}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A7723A3-A5CB-4B37-8700-EA88B6E83BF0}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\building blocks\\nse.core\\messages\\integration\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A7723A3-A5CB-4B37-8700-EA88B6E83BF0}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\messages\\integration\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResponseMessage.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
-              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
-              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T20:40:22.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T20:37:10.975Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

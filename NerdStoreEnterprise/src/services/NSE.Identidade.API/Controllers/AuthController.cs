@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using EasyNetQ;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -20,6 +21,8 @@ public class AuthController : MainController
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly UserManager<IdentityUser> _userManager;
     private readonly AppSettings _appSettings;
+
+    private IBus _bus;
 
     public AuthController(SignInManager<IdentityUser> signInManager,
                           UserManager<IdentityUser> userManager,
@@ -48,6 +51,7 @@ public class AuthController : MainController
         if(result.Succeeded)
         {
             // realiza algo => integração
+            var sucesso = await RegistrarCliente(usuarioRegistro);
 
             return CustomResponse(await GerarJwt(user.Email));
         }
@@ -62,7 +66,14 @@ public class AuthController : MainController
 
     private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
     {
-        return null;
+        var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email);
+        var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
+            Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
+
+        _bus = RabbitHutch.CreateBus("host=localhost:5672");
+        var sucesso = await _bus.Rpc.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
+
+        return sucesso;
     }
 
     [HttpPost("autenticar")]
