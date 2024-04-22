@@ -1,0 +1,16 @@
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\net8.0\NSE.MessageBus.deps.json
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\net8.0\NSE.MessageBus.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\net8.0\NSE.MessageBus.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.AssemblyInfo.cs
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.sourcelink.json
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.Mess.4CC54AFA.Up2Date
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\refint\NSE.MessageBus.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\NSE.MessageBus.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\net8.0\ref\NSE.MessageBus.dll

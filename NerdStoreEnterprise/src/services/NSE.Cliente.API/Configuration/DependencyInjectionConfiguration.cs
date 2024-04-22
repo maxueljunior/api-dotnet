@@ -20,7 +20,7 @@ public static class DependencyInjectionConfiguration
         builder.Services.AddScoped<ClientesContext>();
         builder.Services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 
-        builder.Services.AddHostedService<RegistroClienteIntegrationHandler>();
+        //builder.Services.AddHostedService<RegistroClienteIntegrationHandler>();
 
         return builder;
     }

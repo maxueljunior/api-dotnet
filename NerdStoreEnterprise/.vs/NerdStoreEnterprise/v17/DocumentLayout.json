@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3AAC65-A7D7-46BB-A9B7-E5900C620D0A}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\maxue\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3AAC65-A7D7-46BB-A9B7-E5900C620D0A}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarrinhoController.cs",
+              "DocumentMoniker": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
+              "ToolTip": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
+              "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAASwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:44:44.672Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

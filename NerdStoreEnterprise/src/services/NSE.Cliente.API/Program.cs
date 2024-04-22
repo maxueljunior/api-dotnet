@@ -16,6 +16,7 @@ builder.AddSwaggerConfiguration();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
 
 builder.AddDependencyInjectionConfiguration();
+builder.AddMessageBusConfiguration();
 
 var app = builder.Build();
 

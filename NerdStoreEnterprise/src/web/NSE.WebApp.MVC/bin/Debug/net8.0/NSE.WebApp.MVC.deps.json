@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Http.Polly": "8.0.4",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
           "NSE.Core": "1.0.0",
+          "NSE.WebAPI.Core": "1.0.0",
           "Refit": "7.0.0"
         },
         "runtime": {
@@ -268,10 +269,20 @@
       "NSE.Core/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.9.0",
-          "MediatR": "12.2.0"
+          "MediatR": "12.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "runtime": {
           "NSE.Core.dll": {}
+        }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4"
+        },
+        "runtime": {
+          "NSE.WebAPI.Core.dll": {}
         }
       }
     }
@@ -514,6 +525,11 @@
       "hashPath": "system.text.json.7.0.3.nupkg.sha512"
     },
     "NSE.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSE.WebAPI.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

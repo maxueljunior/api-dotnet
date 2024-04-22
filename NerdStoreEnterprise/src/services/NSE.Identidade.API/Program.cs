@@ -16,6 +16,8 @@ builder.AddApiConfiguration()
        .AddIdentityConfig()
        .AddSwaggerConfig();
 
+builder.AddMessageBusConfiguration();
+
 var app = builder.Build();
 
 app.UseSwaggerConfig()

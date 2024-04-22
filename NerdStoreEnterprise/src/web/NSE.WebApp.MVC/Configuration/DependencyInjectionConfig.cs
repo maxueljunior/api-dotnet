@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.DataAnnotations;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using NSE.WebAPI.Core.Usuario;
 using NSE.WebApp.MVC.Extensions;
 using NSE.WebApp.MVC.Services;
 using NSE.WebApp.MVC.Services.Handlers;
@@ -16,8 +17,11 @@ public static class DependencyInjectionConfig
         builder.Services.AddSingleton<IValidationAttributeAdapterProvider, ValidationAttributeAdapterProvider>();
         builder.Services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
 
-        builder.Services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
+        builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        builder.Services.AddScoped<IAspNetUser, AspNetUser>();
 
+        #region HttpServices
+        
         var retryWaitPolicy = HttpPolicyExtensions
             .HandleTransientHttpError()
             .WaitAndRetryAsync(new[]
@@ -32,27 +36,22 @@ public static class DependencyInjectionConfig
                 Console.ForegroundColor = ConsoleColor.White;
             });
 
+        builder.Services.AddHttpClient<IAutenticacaoService, AutenticacaoService>()
+            .AddPolicyHandler(retryWaitPolicy)
+            .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
         builder.Services.AddHttpClient<ICatalogoService, CatalogoService>()
             .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
             .AddPolicyHandler(retryWaitPolicy)
             .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
-            //.AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(600)));
 
-        // --- REFIT Implementation...
+        builder.Services.AddHttpClient<ICarrinhoService, CarrinhoService>()
+            .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+            .AddPolicyHandler(retryWaitPolicy)
+            .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
-        //var catalogoUrl = builder.Configuration.GetSection("AppSettings:CatalogoUrl");
+        #endregion
 
-        //builder.Services.AddHttpClient("Refit", options =>
-        //    {
-        //        options.BaseAddress = new Uri(catalogoUrl.Value);
-        //    }).AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
-        //      .AddTypedClient(Refit.RestService.For<ICatalogoServiceRefit>);
-
-        // ----
-
-
-        builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-        builder.Services.AddScoped<IUser, AspNetUser>();
 
         return builder;
     }

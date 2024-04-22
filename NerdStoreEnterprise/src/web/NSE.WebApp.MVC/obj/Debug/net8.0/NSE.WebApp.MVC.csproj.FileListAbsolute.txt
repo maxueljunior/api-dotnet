@@ -22,12 +22,15 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\Refit.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\NSE.WebAPI.Core.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.csproj.AssemblyReference.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.AssemblyInfoInputs.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.AssemblyInfo.cs
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.csproj.CoreCompileInputs.cache
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.RazorAssemblyInfo.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.RazorAssemblyInfo.cs

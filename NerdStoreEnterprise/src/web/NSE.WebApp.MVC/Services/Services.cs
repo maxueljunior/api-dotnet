@@ -41,4 +41,9 @@ public abstract class Services
 
         return true;
     }
+
+    protected ResponseResult RetornoOk()
+    {
+        return new ResponseResult();
+    }
 }

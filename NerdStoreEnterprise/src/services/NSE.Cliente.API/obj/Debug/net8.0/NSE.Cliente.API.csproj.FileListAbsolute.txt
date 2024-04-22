@@ -8,6 +8,7 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.A
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\EasyNetQ.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\EasyNetQ.Serialization.NewtonsoftJson.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Humanizer.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\MediatR.dll
@@ -25,6 +26,7 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.A
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -38,6 +40,9 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.A
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Polly.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Polly.Core.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -121,8 +126,10 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.A
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.MessageBus.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.WebAPI.Core.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.MessageBus.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Cliente.API.csproj.AssemblyReference.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Cliente.API.GeneratedMSBuildEditorConfig.editorconfig
@@ -146,5 +153,3 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.A
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Cliente.API.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Cliente.API.genruntimeconfig.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\net8.0\ref\NSE.Cliente.API.dll
-C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\EasyNetQ.Serialization.NewtonsoftJson.dll
-C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\net8.0\Newtonsoft.Json.dll
