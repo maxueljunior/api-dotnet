@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9GtgBdsd8Fc5JSLieI+4kao1/jh7IOl0dW9xwVeXQUGUQdm5GxKo6ksoamM/iBnXh6ofKQuBjITqxm+KwM6bFg==",
+  "dgSpecHash": "IZuJfGv0PY9Ln4ogBXoMUDRY+9K5PKXUFcQ+HWVtLb34eUDuQyXe9mvKmdFhC/rvYuTFWS5bMoWtt35c6OZSLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\maxue\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\maxue\\.nuget\\packages\\netdevpack\\6.1.0\\netdevpack.6.1.0.nupkg.sha512"
   ],
   "logs": []
 }

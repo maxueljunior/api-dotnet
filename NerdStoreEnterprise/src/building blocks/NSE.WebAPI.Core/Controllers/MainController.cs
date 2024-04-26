@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using NSE.Core.Communication;
 
 namespace NSE.WebAPI.Core.Controllers;
 
@@ -42,6 +43,25 @@ public abstract class MainController : ControllerBase
         }
 
         return CustomResponse();
+    }
+
+    protected ActionResult CustomResponse(ResponseResult resposta)
+    {
+        ResponsePossuiErros(resposta);
+
+        return CustomResponse();
+    }
+
+    protected bool ResponsePossuiErros(ResponseResult resposta)
+    {
+        if (resposta == null || !resposta.Errors.Mensagens.Any()) return false;
+
+        foreach(var mensagem in resposta.Errors.Mensagens)
+        {
+            AdicionaErroProcessamento(mensagem);
+        }
+
+        return true;
     }
 
     protected bool OperacaoValida()

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9ygKrz4MgA4hwQUCCsun4iMg9Fqa2rfTLsa7S1aIDYu1dGuDfi91oa+oI+Aj4/Lhrn1p2w3YMugcKwnseP3G5A==",
+  "dgSpecHash": "/ffjUOAPoVtasgAIUIDIini78qnCFAyu5hi27FhLM2Gm3ii9aMwaVlJFeB0ABRRp4eqfOQ1ALQfm1GxF6kjuzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxue\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\maxue\\.nuget\\packages\\netdevpack\\6.1.0\\netdevpack.6.1.0.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\polly\\8.3.1\\polly.8.3.1.nupkg.sha512",
     "C:\\Users\\maxue\\.nuget\\packages\\polly.core\\8.3.1\\polly.core.8.3.1.nupkg.sha512",

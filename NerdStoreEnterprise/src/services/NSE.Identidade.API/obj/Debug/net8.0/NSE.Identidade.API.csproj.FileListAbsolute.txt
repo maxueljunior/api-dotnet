@@ -33,6 +33,7 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidad
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -51,6 +52,7 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidad
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Polly.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Polly.Extensions.Http.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
