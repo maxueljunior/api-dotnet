@@ -1,0 +1,8 @@
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.csproj.AssemblyReference.cache
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.AssemblyInfoInputs.cache
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.AssemblyInfo.cs
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.csproj.CoreCompileInputs.cache
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\net8.0\NSE.Pedidos.API.sourcelink.json

@@ -43,7 +43,7 @@ public sealed class CarrinhoContext : DbContext
                 v.Property(vc => vc.Percentual)
                     .HasColumnName("Percentual");
 
-                v.Property(vc => vc.ValorDesonto)
+                v.Property(vc => vc.ValorDesconto)
                     .HasColumnName("ValorDesconto");
             });
 

@@ -59,7 +59,7 @@ public class CarrinhoCliente
         {
             if (Voucher.Percentual.HasValue)
             {
-                desconto = Voucher.ValorDesonto.Value;
+                desconto = Voucher.ValorDesconto.Value;
                 valor -= desconto;
             }
         }
