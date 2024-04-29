@@ -146,3 +146,4 @@ C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\NSE.Carrinho.API.pdb
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\NSE.Carrinho.API.genruntimeconfig.cache
 C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\ref\NSE.Carrinho.API.dll
+C:\Users\maxue\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.dll

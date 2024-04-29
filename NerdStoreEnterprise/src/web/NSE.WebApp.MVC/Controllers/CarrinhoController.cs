@@ -56,4 +56,15 @@ public class CarrinhoController : MainController
 
         return RedirectToAction("Index");
     }
+
+    [HttpPost]
+    [Route("carrinho/aplicar-voucher")]
+    public async Task<IActionResult> AplicarVoucher(string voucherCodigo)
+    {
+        var resposta = await _carrinhoService.AplicarVoucherCarrinho(voucherCodigo);
+
+        if (ResponsePossuiErros(resposta)) return View("Index", await _carrinhoService.ObterCarrinho());
+
+        return RedirectToAction("Index");
+    }
 }

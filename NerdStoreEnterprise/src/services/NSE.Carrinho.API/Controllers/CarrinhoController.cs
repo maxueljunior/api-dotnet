@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NSE.Carrinho.API.Data;
 using NSE.Carrinho.API.Model;
+using NSE.Carrinho.API.Models;
 using NSE.WebAPI.Core.Controllers;
 using NSE.WebAPI.Core.Usuario;
 
@@ -79,6 +80,21 @@ public class CarrinhoController : MainController
         _context.CarrinhoCliente.Update(carrinho);
 
         await PersistirDados();
+        return CustomResponse();
+    }
+
+    [HttpPost("carrinho/aplicar-voucher")]
+    public async Task<IActionResult> AplicarVoucher(Voucher voucher)
+    {
+        var carrinho = await ObterCarrinhoCliente();
+
+        carrinho.AplicarVoucher(voucher);
+
+        _context.CarrinhoCliente.Update(carrinho);
+        var result = await _context.SaveChangesAsync();
+
+        if (result <= 0) AdicionaErroProcessamento("Não foi possivel persistir no banco de dados");
+
         return CustomResponse();
     }
 

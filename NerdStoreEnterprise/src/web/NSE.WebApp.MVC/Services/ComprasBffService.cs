@@ -64,5 +64,14 @@ public class ComprasBffService : Services, IComprasBffService
         return RetornoOk();
     }
 
-    
+    public async Task<ResponseResult> AplicarVoucherCarrinho(string voucher)
+    {
+        var itemContent = ObterConteudo(voucher);
+
+        var response = await _httpClient.PostAsync("/compras/carrinho/aplicar-voucher/", itemContent);
+
+        if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+
+        return RetornoOk();
+    }
 }
