@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kq4gbl8+XqQH/0VdvftilRhQ8Feo1ruqfQuzVM+F6suZru8SQ/Km4DbHCV0HgbHoNahUg469bCtezNPn2olNSw==",
+  "dgSpecHash": "8OL9QwBfD0W0cjdYWKx0CQ/RzptQECRTZh8IgyAhZNaRaBBAISPVuef0Nlejt6cS8BspQAVHhzB824ZH5d8aMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\7.8.0\\easynetq.serialization.newtonsoftjson.7.8.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

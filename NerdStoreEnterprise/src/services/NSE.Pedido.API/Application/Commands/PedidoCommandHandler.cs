@@ -2,8 +2,10 @@
 using MediatR;
 using NSE.Core.Messages;
 using NSE.Pedidos.API.Application.DTO;
+using NSE.Pedidos.API.Application.Events;
 using NSE.Pedidos.Domain.Pedidos;
 using NSE.Pedidos.Domain.Vouchers;
+using NSE.Pedidos.Domain.Vouchers.Specs;
 
 namespace NSE.Pedidos.API.Application.Commands;
 
@@ -75,7 +77,7 @@ public class PedidoCommandHandler : CommandHandler,
         if (!message.VoucherUtilizado) return true;
 
         var voucher = await _voucherRepository.ObterVoucherPorCodigo(message.VoucherCodigo);
-        if (voucher == null)
+        if (voucher is null)
         {
             AdicionarErro("O voucher informado não existe!");
             return false;

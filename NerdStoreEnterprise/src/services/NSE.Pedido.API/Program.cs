@@ -13,7 +13,7 @@ builder.AddApiConfiguration();
 builder.AddJwtConfiguration();
 builder.AddSwaggerConfiguration();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
-
+builder.AddMessageBusConfiguration();
 builder.AddDependencyInjectionConfiguration();
 
 var app = builder.Build();

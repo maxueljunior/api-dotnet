@@ -16,6 +16,14 @@ public class Voucher : Entity, IAggregateRoot
     public bool Ativo {  get; private set; }
     public bool Utilizado {  get; private set; }
 
+    public void DebitarQuantidade()
+    {
+        Quantidade -= 1;
+        if (Quantidade >= 1) return;
+
+        MarcarComoUtilizado();
+    }
+
     public bool EstaValidoParaUtilizacao()
     {
         var spec = new VoucherAtivoSpecification()
@@ -30,5 +38,6 @@ public class Voucher : Entity, IAggregateRoot
         Ativo = false;
         Utilizado = true;
         Quantidade = 0;
+        DataUtilizacao = DateTime.Now;
     }
 }

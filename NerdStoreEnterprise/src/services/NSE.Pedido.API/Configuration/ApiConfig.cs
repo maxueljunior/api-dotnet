@@ -15,6 +15,16 @@ public static class ApiConfig
         });
 
         builder.Services.AddControllers();
+
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("Total",
+                    builder =>
+                        builder
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+        });
         return builder;
     }
 
@@ -23,7 +33,7 @@ public static class ApiConfig
         app.UseHttpsRedirection();
         app.UseAuthConfiguration();
         app.MapControllers();
-
+        app.UseCors("Total");
         return app;
     }
 }

@@ -10,4 +10,3 @@ public class EnderecoDTO
     public string Cidade { get; set; }
     public string Estado { get; set; }
 }
-}

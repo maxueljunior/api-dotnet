@@ -1,4 +1,5 @@
 ﻿using NSE.Core.Data;
+using System.Data.Common;
 
 namespace NSE.Pedidos.Domain.Pedidos;
 
@@ -11,4 +12,5 @@ public interface IPedidoRepository : IRepository<Pedido>
 
     Task<PedidoItem> ObterItemPorId(Guid id);
     Task<PedidoItem> ObterItemPorPedido(Guid pedidoId, Guid produtoId);
+    DbConnection ObterConexao();
 }

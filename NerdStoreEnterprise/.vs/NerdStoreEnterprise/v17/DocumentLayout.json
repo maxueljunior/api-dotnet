@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B647D8B5-96DD-40CF-9FCE-D3904841D771}|src\\services\\NSE.Pedido.API\\NSE.Pedidos.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.pedido.api\\application\\commands\\pedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B647D8B5-96DD-40CF-9FCE-D3904841D771}|src\\services\\NSE.Pedido.API\\NSE.Pedidos.API.csproj|solutionrelative:src\\services\\nse.pedido.api\\application\\commands\\pedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PedidoCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
-              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedido.API\\Application\\Commands\\PedidoCommandHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB8AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:36:25.376Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
