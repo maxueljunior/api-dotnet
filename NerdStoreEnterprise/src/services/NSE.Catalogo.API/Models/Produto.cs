@@ -11,4 +11,14 @@ public class Produto : Entity, IAggregateRoot
     public DateTime DataCadastro { get; set; }
     public string? Imagem { get; set; }
     public int QuantidadeEstoque { get; set; }
+
+    public bool EstaDisponivel(int quantidadeProduto)
+    {
+        return Ativo && QuantidadeEstoque >= quantidadeProduto;
+    }
+
+    public void RetirarEstoque(int quantidadeProduto)
+    {
+        if (QuantidadeEstoque >= quantidadeProduto) QuantidadeEstoque -= quantidadeProduto;
+    }
 }
