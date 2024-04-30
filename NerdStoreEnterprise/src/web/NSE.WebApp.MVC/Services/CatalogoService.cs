@@ -19,7 +19,7 @@ public class CatalogoService : Services, ICatalogoService
 
     public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
     {
-        var response = await _httpClient.GetAsync($"/api/catalogo/produtos");
+        var response = await _httpClient.GetAsync($"/catalogo/produtos");
 
         TratarErrosResponse(response);
 
@@ -28,7 +28,7 @@ public class CatalogoService : Services, ICatalogoService
 
     public async Task<ProdutoViewModel> ObterPorId(Guid id)
     {
-        var response = await _httpClient.GetAsync($"/api/catalogo/produtos/{id}");
+        var response = await _httpClient.GetAsync($"/catalogo/produtos/{id}");
 
         TratarErrosResponse(response);
 

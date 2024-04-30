@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92E94330-5D33-4E41-89D6-935C85270F56}|src\\services\\NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.pagamento.api\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E94330-5D33-4E41-89D6-935C85270F56}|src\\services\\NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|solutionrelative:src\\services\\nse.pagamento.api\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E94330-5D33-4E41-89D6-935C85270F56}|src\\services\\NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.pagamento.api\\services\\pagamentointegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E94330-5D33-4E41-89D6-935C85270F56}|src\\services\\NSE.Pagamento.API\\NSE.Pagamentos.API.csproj|solutionrelative:src\\services\\nse.pagamento.api\\services\\pagamentointegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagamentoIntegrationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\Services\\PagamentoIntegrationHandler.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pagamento.API\\Services\\PagamentoIntegrationHandler.cs",
+              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\Services\\PagamentoIntegrationHandler.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pagamento.API\\Services\\PagamentoIntegrationHandler.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAvwD4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:42:30.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\Services\\PagamentoService.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pagamento.API\\Services\\PagamentoService.cs",
+              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\Services\\PagamentoService.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pagamento.API\\Services\\PagamentoService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:33:13.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

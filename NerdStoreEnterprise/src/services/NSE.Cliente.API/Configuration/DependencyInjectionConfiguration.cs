@@ -7,6 +7,7 @@ using NSE.Cliente.API.Data.Repository;
 using NSE.Cliente.API.Models;
 using NSE.Cliente.API.Services;
 using NSE.Core.Mediator;
+using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.Cliente.API.Configuration;
 
@@ -14,13 +15,18 @@ public static class DependencyInjectionConfiguration
 {
     public static WebApplicationBuilder AddDependencyInjectionConfiguration(this WebApplicationBuilder builder)
     {
+        builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        builder.Services.AddScoped<IAspNetUser, AspNetUser>();
+
         builder.Services.AddScoped<IMediatorHandler, MediatorHandler>();
+
         builder.Services.AddScoped<IRequestHandler<RegisterClienteCommand, ValidationResult>, ClienteCommandHandler>();
-        builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
-        builder.Services.AddScoped<ClientesContext>();
+        builder.Services.AddScoped<IRequestHandler<AdicionarEnderecoCommand, ValidationResult>, ClienteCommandHandler>();
+
         builder.Services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 
-        //builder.Services.AddHostedService<RegistroClienteIntegrationHandler>();
+        builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+        builder.Services.AddScoped<ClientesContext>();
 
         return builder;
     }

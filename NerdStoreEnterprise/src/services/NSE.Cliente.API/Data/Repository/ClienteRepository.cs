@@ -23,6 +23,14 @@ public class ClienteRepository : IClienteRepository
     {
         return await _context.Clientes.FirstOrDefaultAsync(c => c.Cpf.Numero == cpf);
     }
+    public async Task<Endereco> ObterEnderecoPorId(Guid id)
+    {
+        return await _context.Enderecos.FirstOrDefaultAsync(e => e.ClienteId == id);
+    }
+    public void AdicionarEndereco(Endereco endereco)
+    {
+        _context.Enderecos.Add(endereco);
+    }
     public void Adicionar(Clientes cliente)
     {
        _context.Clientes.Add(cliente);

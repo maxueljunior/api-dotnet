@@ -12,7 +12,7 @@ public class RegisterClienteCommand : Command
 
     public RegisterClienteCommand(Guid id, string nome, string email, string cpf)
     {
-        AgreggateId = id;
+        AggregateId = id;
         Id = id;
         Nome = nome;
         Email = email;
