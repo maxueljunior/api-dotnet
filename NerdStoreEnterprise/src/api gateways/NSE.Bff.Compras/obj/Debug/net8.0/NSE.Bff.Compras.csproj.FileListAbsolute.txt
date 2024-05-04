@@ -118,3 +118,8 @@ C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\N
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\NSE.Bff.Compras.pdb
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\NSE.Bff.Compras.genruntimeconfig.cache
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\ref\NSE.Bff.Compras.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Grpc.Net.Common.dll

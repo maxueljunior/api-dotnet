@@ -304,3 +304,10 @@ C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.C
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.MessageBus.dll
 C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.MessageBus.pdb
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\maxuel.junior\Desktop\api-dotnet\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.Common.dll

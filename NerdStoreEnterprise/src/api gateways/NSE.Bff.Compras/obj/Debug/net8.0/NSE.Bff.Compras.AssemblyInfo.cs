@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Bff.Compras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f136fac5a07a36542635d4b399c47deefb20a99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e62266005de53d9718de49219f2f51ab6284cb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Bff.Compras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Bff.Compras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

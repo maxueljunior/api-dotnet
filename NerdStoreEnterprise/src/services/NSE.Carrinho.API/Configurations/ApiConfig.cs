@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NSE.Carrinho.API.Data;
+using NSE.Carrinho.API.Services.gRPC;
 using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Carrinho.API.Configurations;
@@ -14,6 +15,8 @@ public static class ApiConfig
         });
 
         builder.Services.AddControllers();
+
+        builder.Services.AddGrpc();
 
         builder.Services.AddCors(options =>
         {
@@ -39,6 +42,7 @@ public static class ApiConfig
         app.UseAuthConfiguration();
 
         app.MapControllers();
+        app.MapGrpcService<CarrinhoGrpcService>().RequireCors("Total");
         return app;
     }
 }

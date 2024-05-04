@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OVu6bYyZfZjstEtRjh7/NFBL449DXvJVWTwHdfAnlIOFfkF5tBVkVJyiHI7RNNgoYar+aGA3MfbtSp9DGE6i+Q==",
+  "dgSpecHash": "wc/FF34+6MC0lFmV9TNP9WvFh58dtsNDaYAnTzKgJFp3NVGE8bRWTS+qIZm0f3hvAR8I2sY7fSBMdD/SbzH2Eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,15 @@
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\7.8.0\\easynetq.serialization.newtonsoftjson.7.8.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.aspnetcore\\2.62.0\\grpc.aspnetcore.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.aspnetcore.server\\2.62.0\\grpc.aspnetcore.server.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.62.0\\grpc.aspnetcore.server.clientfactory.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.net.clientfactory\\2.62.0\\grpc.net.clientfactory.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
+    "C:\\Users\\maxuel.junior\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\maxuel.junior\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

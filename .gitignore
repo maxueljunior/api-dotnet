@@ -2,4 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/NerdStoreEnterprise/.vs/NerdStoreEnterprise/FileContentIndex/7d71c616-30b3-410b-afee-caace6821818.vsidx
+"*.jfm"
