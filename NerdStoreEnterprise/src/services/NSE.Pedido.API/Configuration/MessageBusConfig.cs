@@ -11,6 +11,7 @@ public static class MessageBusConfig
     {
         builder.AddDependencyInjectionMessageBus(builder.Configuration.GetMessageQueueConnections("MessageBus"));
         builder.Services.AddHostedService<PedidoOrquestradorIntegrationHandler>();
+        builder.Services.AddHostedService<PedidoIntegrationHandler>();
         return builder;
     }
 }

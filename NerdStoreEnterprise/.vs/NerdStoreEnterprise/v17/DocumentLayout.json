@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAD910F2-4D68-43D4-A384-D04685FC4D42}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\services\\catalogointegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD910F2-4D68-43D4-A384-D04685FC4D42}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\services\\catalogointegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAD910F2-4D68-43D4-A384-D04685FC4D42}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD910F2-4D68-43D4-A384-D04685FC4D42}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A33B1D15-B1B5-4D68-A6B5-A7EAE7263A44}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33B1D15-B1B5-4D68-A6B5-A7EAE7263A44}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Program.cs",
-              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Program.cs",
-              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:18:54.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CatalogoIntegrationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Services\\CatalogoIntegrationHandler.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Services\\CatalogoIntegrationHandler.cs",
-              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Services\\CatalogoIntegrationHandler.cs",
-              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Services\\CatalogoIntegrationHandler.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwC8AAABhAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Program.cs",
+              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:17:37.97Z",
+              "WhenOpened": "2024-05-02T19:22:10.635Z",
               "EditorCaption": ""
             }
           ]

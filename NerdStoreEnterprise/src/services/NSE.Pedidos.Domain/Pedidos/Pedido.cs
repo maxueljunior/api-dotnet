@@ -17,6 +17,7 @@ public class Pedido : Entity, IAggregateRoot
         VoucherId = voucherId;
     }
 
+    // EF ctor
     protected Pedido() { }
 
     public int Codigo { get; private set; }
@@ -27,14 +28,27 @@ public class Pedido : Entity, IAggregateRoot
     public decimal ValorTotal { get; private set; }
     public DateTime DataCadastro { get; private set; }
     public PedidoStatus PedidoStatus { get; private set; }
+
     private readonly List<PedidoItem> _pedidoItems;
     public IReadOnlyCollection<PedidoItem> PedidoItems => _pedidoItems;
+
     public Endereco Endereco { get; private set; }
+
+    // EF Rel.
     public Voucher Voucher { get; private set; }
 
     public void AutorizarPedido()
     {
         PedidoStatus = PedidoStatus.Autorizado;
+    }
+    public void CancelarPedido()
+    {
+        PedidoStatus = PedidoStatus.Cancelado;
+    }
+
+    public void FinalizarPedido()
+    {
+        PedidoStatus = PedidoStatus.Pago;
     }
 
     public void AtribuirVoucher(Voucher voucher)
@@ -72,7 +86,7 @@ public class Pedido : Entity, IAggregateRoot
         }
         else
         {
-            if (Voucher.Percentual.HasValue)
+            if (Voucher.ValorDesconto.HasValue)
             {
                 desconto = Voucher.ValorDesconto.Value;
                 valor -= desconto;
