@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A428835E-0EA1-40FC-B293-E09582C71FA7}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\web\\nse.webapp.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A428835E-0EA1-40FC-B293-E09582C71FA7}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|solutionrelative:src\\web\\nse.webapp.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBF28E82-9E5C-49F1-8FDC-8C7489F7FBC2}|src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj|c:\\users\\maxuel.junior\\desktop\\api-dotnet\\nerdstoreenterprise\\src\\api gateways\\nse.bff.compras\\services\\grpc\\carrinhogrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBF28E82-9E5C-49F1-8FDC-8C7489F7FBC2}|src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj|solutionrelative:src\\api gateways\\nse.bff.compras\\services\\grpc\\carrinhogrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,25 +29,45 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarrinhoGrpcService.cs",
-              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
-              "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
-              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
-              "RelativeToolTip": "src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:53:21.446Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{79664857-03bf-4bca-aa54-ec998b3328f8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Dockerfile",
+              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Dockerfile",
+              "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-06T23:15:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarrinhoGrpcService.cs",
+              "DocumentMoniker": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
+              "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
+              "ToolTip": "C:\\Users\\maxuel.junior\\Desktop\\api-dotnet\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
+              "RelativeToolTip": "src\\api gateways\\NSE.Bff.Compras\\Services\\gRPC\\CarrinhoGrpcService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T14:53:21.446Z"
             }
           ]
         }
